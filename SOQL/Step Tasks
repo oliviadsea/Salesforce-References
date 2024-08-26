@@ -1,0 +1,1 @@
+SELECT Id, Status, Skipped__c FROM Task WHERE Skipped__c = TRUE AND Status = 'Completed'
