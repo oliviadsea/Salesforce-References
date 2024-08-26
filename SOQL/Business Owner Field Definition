@@ -1,0 +1,1 @@
+SELECT Id,Label,DeveloperName,EntityDefinition.QualifiedApiName FROM FieldDefinition WHERE BusinessOwnerId = '00G6T000003RqZYUA0' AND EntityDefinition.QualifiedApiName IN ('Account', 'Opportunity', 'OpportunityLineItem', 'Product2')
